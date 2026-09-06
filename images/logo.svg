@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background Circle (Soft Sesame / Off-White) -->
+  <circle cx="250" cy="250" r="230" fill="#F3EFE6" stroke="#D9CBB8" stroke-width="6" />
+
+  <!-- Outer Decorative Ring (Terracotta Accent) -->
+  <circle cx="250" cy="250" r="205" fill="none" stroke="#7A3E21" stroke-width="3" stroke-dasharray="12, 8" />
+
+  <!-- Mortar Base (Representing Traditional Sutkeri Aushadhi Preparation) -->
+  <path d="M 160 270 C 160 350, 340 350, 340 270 Z" fill="#3D2314" />
+  
+  <!-- Mortar Lip/Rim -->
+  <ellipse cx="250" cy="270" rx="90" ry="16" fill="#7A3E21" />
+
+  <!-- Pestle / Mixing Element (Angled Top Left to Bottom Right) -->
+  <path d="M 190 150 L 220 135 L 265 260 L 235 270 Z" fill="#A35C37" rx="5" />
+  
+  <!-- Pestle Crown (Toasted Almond Highlight) -->
+  <ellipse cx="205" cy="142.5" rx="16" ry="10" fill="#A35C37" transform="rotate(-25 205 142.5)" />
+
+  <!-- Pustakari Sweet Cube 1 (Steeped Honey Gold / Ghee) -->
+  <polygon points="230,220 260,205 290,220 260,235" fill="#F4C868" />
+  <polygon points="230,220 260,235 260,265 230,250" fill="#E0A32A" />
+  <polygon points="260,235 290,220 290,250 260,265" fill="#B88223" />
+
+  <!-- Pustakari Sweet Cube 2 (Stacked Behind / Right) -->
+  <polygon points="270,195 295,182 320,195 295,208" fill="#F4C868" />
+  <polygon points="270,195 295,208 295,233 270,220" fill="#E0A32A" />
+  <polygon points="295,208 320,195 320,220 295,233" fill="#B88223" />
+
+  <!-- Ghee Drop / Steam Motif (Rising Aromas) -->
+  <path d="M 250 100 C 235 130, 265 140, 250 160 C 240 140, 255 130, 250 100 Z" fill="#E0A32A" />
+  <path d="M 285 120 C 275 140, 295 150, 285 165 C 278 150, 290 140, 285 120 Z" fill="#F4C868" />
+
+  <!-- Brand Title Top Arc (MITHO & MOOL) -->
+  <path id="textArcTop" d="M 90 250 A 160 160 0 0 1 410 250" fill="none" />
+  <text font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="28" fill="#3D2314" letter-spacing="4">
+    <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">
+      MITHO &amp; MOOL
+    </textPath>
+  </text>
+
+  <!-- Corrected Bottom Arc Path (Clockwise Sweep from Bottom-Left to Bottom-Right) -->
+  <path id="textArcBottomCorrect" d="M 100 270 A 150 150 0 0 0 400 270" fill="none" />
+  <text font-family="'Arial', 'Helvetica', sans-serif" font-weight="600" font-size="13" fill="#7A3E21" letter-spacing="2.5">
+    <textPath href="#textArcBottomCorrect" startOffset="50%" text-anchor="middle">
+      AUSHADHI &amp; PUSTAKARI
+    </textPath>
+  </text>
+
+  <!-- Side Decorative Stars / Accent Dots -->
+  <circle cx="82" cy="250" r="5" fill="#E0A32A" />
+  <circle cx="418" cy="250" r="5" fill="#E0A32A" />
+</svg>

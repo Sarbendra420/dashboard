@@ -1,0 +1,54 @@
+
+
+:root {
+    /* FONT FAMILY */
+    --font-heading: 'Fraunces', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+
+    /* FONT SIZE */
+    --text-sm: 1.2rem;
+    --text-base: 1.6rem;
+    --text-paragraph: 2rem;
+    --text-h3: 4rem;
+    --text-h2: 4.8rem;
+    --text-h1: 6.2rem;
+
+    /* FONT WEIGHT */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* LINE HEIGHTS */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+
+    /* LETTER SPACING */
+    --letter-spacing-tight: -2px;
+
+
+    /* COLORS */
+    --primary-dark: #3D2314;
+    --primary-base: #7A3E21;
+    --primary-light: #A35C37;
+    
+    --secondary-dark: #B88223;
+    --secondary-base: #E0A32A;
+    --secondary-light: #F4C868;
+
+    --tertiary-dark: #D9CBB8;
+    --tertiary-base: #F3EFE6;
+    --tertiary-light: #FAF7F2;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
