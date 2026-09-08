@@ -2,6 +2,8 @@
 
 A responsive, custom-built admin dashboard interface for **Mitho & Mool**, designed specifically to manage inventory, batches, customer orders, and shop announcements. 
 
+🚀 **[View Live Demo](https://your-username.github.io/your-repo-name/)**
+
 This project was built strictly using **CSS Grid** to achieve high layout precision, zero global window scrollbars, and independent vertical scrolling panels.
 
 ---
