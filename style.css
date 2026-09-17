@@ -380,7 +380,7 @@ h4 {
 }
 
 
-.announcement-title, .trending-title {
+.announcement-title, .trending-title, .card-title {
     font-size: var(--text-h3);
     color: var(--primary-dark);
 }
